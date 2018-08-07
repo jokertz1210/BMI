@@ -422,14 +422,14 @@ table {
   }
   .content ul li span {
     margin-left: 3px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .content ul li span span {
     font-size: 12px;
   }
   .content ul a {
     margin-left: 3px;
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
