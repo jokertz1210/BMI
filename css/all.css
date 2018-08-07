@@ -329,6 +329,27 @@ table {
   border-left: 5px solid #fa1302;
 }
 
+@media (max-width: 576px) {
+  #thin-text {
+    display: none;
+  }
+  #normal-text {
+    display: none;
+  }
+  #fat-text {
+    display: none;
+  }
+  #toofat-text {
+    display: none;
+  }
+  #superfat-text {
+    display: none;
+  }
+  #danger-text {
+    display: none;
+  }
+}
+
 .content {
   width: 100%;
   margin: 0 auto;
