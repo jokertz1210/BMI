@@ -17,7 +17,7 @@
     margin-left: 100PX;
   }
   .input-data{
-    width: 15%;
+    width: 20%;
     margin-top: 40px;
     margin-left: 10%;
     float: left;
@@ -34,6 +34,19 @@
     }
   }
 }
+
+@media (max-width: 576px){
+  .header{
+    height: 200px;
+    .logo{
+      margin-left: 15PX;
+    }
+    .input-data{
+      margin-left: 15px;
+    }
+  }
+}
+
 .btn{
   width: 20%;
   position: relative;
@@ -47,8 +60,14 @@
   margin-left: 10%;
   margin-top: 40px;
   float: left;
-
 }
+
+@media (max-width: 576px){
+  .btn{
+    margin-left: 15px;
+  }
+}
+
 .btn:hover{
   box-shadow: 0 0 8px 3px #cccf8c;
 }
@@ -269,6 +288,45 @@
     }
   }
 }
+
+@media (max-width: 576px){
+  .content{
+    width: 100%;
+    margin: 0 auto;
+    h2{
+      text-align: center;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    ul{
+      width: 95%;
+      li{
+        .spanText{
+          width: 80px;
+        }
+        .kgText{
+          width: 80px;
+        }
+        .timeText{
+          display: none;
+        }
+        span{
+          margin-left: 3px;
+          font-size: 16px;
+          span{
+            font-size: 12px;
+          }
+        }
+      }
+      a{
+        margin-left: 3px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
 .footer{
   height: 70px;
   background: #424242;

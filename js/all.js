@@ -118,7 +118,7 @@ function addData(e) {
         contentStr += '<span> <span>BMI</span> ' + data[i].bmi + '</span>';
         contentStr += '<span> <span>身長</span> ' + data[i].height + ' cm </span>';
         contentStr += '<span class="kgText"> <span>体重</span> ' + data[i].weight + ' kg </span>';
-        contentStr += '<span> <span>日付</span> ' + data[i].day + '</span>';
+        contentStr += '<span class="timeText"> <span>日付</span> ' + data[i].day + '</span>';
         contentStr += '<a href="#" data-index=' + i + ' />X</a>';
         contentStr += '</li>';
     }

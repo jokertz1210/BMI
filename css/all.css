@@ -70,7 +70,7 @@ table {
 }
 
 .header .input-data {
-  width: 15%;
+  width: 20%;
   margin-top: 40px;
   margin-left: 10%;
   float: left;
@@ -89,6 +89,18 @@ table {
   border-radius: 5px;
 }
 
+@media (max-width: 576px) {
+  .header {
+    height: 200px;
+  }
+  .header .logo {
+    margin-left: 15PX;
+  }
+  .header .input-data {
+    margin-left: 15px;
+  }
+}
+
 .btn {
   width: 20%;
   position: relative;
@@ -102,6 +114,12 @@ table {
   margin-left: 10%;
   margin-top: 40px;
   float: left;
+}
+
+@media (max-width: 576px) {
+  .btn {
+    margin-left: 15px;
+  }
 }
 
 .btn:hover {
@@ -356,6 +374,42 @@ table {
   text-decoration: none;
   margin-left: 20px;
   font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .content ul {
+    width: 95%;
+  }
+  .content ul li .spanText {
+    width: 80px;
+  }
+  .content ul li .kgText {
+    width: 80px;
+  }
+  .content ul li .timeText {
+    display: none;
+  }
+  .content ul li span {
+    margin-left: 3px;
+    font-size: 16px;
+  }
+  .content ul li span span {
+    font-size: 12px;
+  }
+  .content ul a {
+    margin-left: 3px;
+    font-size: 16px;
+  }
 }
 
 .footer {
